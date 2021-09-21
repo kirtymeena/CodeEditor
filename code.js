@@ -1,13 +1,3 @@
-
-
-var readonly = document.querySelector("#read").addEventListener("click",function(){
-    CodeMirror(document.querySelector("#html-code"),{
-        readOnly:true
-    })
-})
-
-
-
 const html_code = CodeMirror(document.querySelector('#html-code'), {
     lineNumbers: true,
     tabSize: 2,
